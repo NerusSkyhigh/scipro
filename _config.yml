@@ -1,8 +1,112 @@
-title: Just the Docs Template
-description: A starter template for a Jeykll site using the Just the Docs theme!
+
+title: Programmazione Scientifica
+description: Sito web per il corso di Programmazione Scientifica del corso di laurea in Fisica dell'Università di Trento
+#logo: /assets/images/logotmp.png
+#favicon: /assets/images/favicon.png
 theme: just-the-docs
 
-url: https://just-the-docs.github.io
+repository: nerusskyhigh/scipro
+url: https://nerusskyhigh.github.io/scipro
 
 aux_links:
-  Template Repository: https://github.com/just-the-docs/just-the-docs-template
+  Moodle: https://didatticaonline.unitn.it/dol/course/view.php?id=37174
+
+
+# Files to exclude from the build
+exclude:
+  - Gemfile
+  - Gemfile.lock
+  - .gitignore
+
+
+
+gh_edit_link: true
+gh_edit_link_text: "Modifica questa pagina su GitHub."
+gh_edit_repository: "https://github.com/NerusSkyhigh/scipro/" # the github URL for your repo
+gh_edit_branch: "main"
+gh_edit_view_mode: "edit"
+
+
+
+
+collections:
+  teoria:
+    permalink: "/:collection/:path/"
+    output: true
+
+  esercitazioni:
+    permalink: "/:collection/:path/"
+    output: true
+  
+  provette:
+    permalink: "/:collection/:path/"
+    output: true
+  
+  guide:
+    permalink: "/:collection/:path/"
+    output: true
+
+
+just_the_docs:
+  collections:
+    teoria:
+      name: Lezioni di Teoria
+      nav_fold: false
+
+    esercitazioni:
+      name: Esercitazioni
+      nav_fold: false
+
+    provette:
+      name: Provette
+      nav_fold: false
+
+    guide:
+      name: Guide
+      nav_fold: false
+
+
+# Callout section
+#   - https://just-the-docs.com/docs/configuration/#callouts
+#   - https://just-the-docs.com/docs/ui-components/callouts/
+callouts:
+  vm:
+    title: Virtual Machine (con host Windows/Mac)
+    color: purple
+    
+  wsl:
+    title: WSL2 (con host Windows)
+    color: blue
+
+  dualboot:
+    title: Dual boot (con host Windows/Mac)
+    color: green
+
+  quote:
+    color: blue
+
+  attenzione:
+    title: Attenzione
+    color: red
+
+  consiglio:
+    title: Consiglio
+    color: blue
+
+
+  
+
+
+# Plugins section
+plugins:
+  - jekyll-last-modified-at
+
+last-modified-at:
+    date-format: '%d-%b-%y'
+
+
+
+kramdown:
+  syntax_highlighter_opts:
+    block:
+      line_numbers: true
