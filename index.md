@@ -1,35 +1,42 @@
 ---
-title: Home
+title: Introduzione al Corso
 layout: home
+nav_order: 1
 ---
+# Programmazione Scientifica
+{: .no_toc }
+{{ page.last_modified_at | date: 'Ultimo aggiornamento: %d/%M/%Y alle %R:%S' }}
 
-This is a *bare-minimum* template to create a Jekyll site that uses the [Just the Docs] theme. You can easily set the created site to be published on [GitHub Pages] – the [README] file explains how to do that, along with other details.
+Sito **WIP** per il corso di Programmazione Scientifica tenuto per il dipartimento di fisica di Trento.
 
-If [Jekyll] is installed on your computer, you can also build and preview the created site *locally*. This lets you test changes before committing them, and avoids waiting for GitHub Pages.[^1] And you will be able to deploy your local build to a different platform than GitHub Pages.
 
-More specifically, the created site:
+<details open markdown="block">
+  <summary>Indice</summary>
+  {: .text-delta }
+1. TOC
+{:toc}
+</details>
 
-- uses a gem-based approach, i.e. uses a `Gemfile` and loads the `just-the-docs` gem
-- uses the [GitHub Pages / Actions workflow] to build and publish the site on GitHub Pages
 
-Other than that, you're free to customize sites that you create with this template, however you like. You can easily change the versions of `just-the-docs` and Jekyll it uses, as well as adding further plugins.
+## Annunci
 
-[Browse our documentation][Just the Docs] to learn more about how to use this theme.
+### Calendario
+Il calendario è come da programma, salvo le seguenti eccezioni:
 
-To get started with creating a site, simply:
+- Venerdì 01.03 **NON** ci sarà lezione
+- Le lezioni della settimana 4-8 Marzo saranno regolari.
+- **NEW**: Non faremo lezione nei giorni 25, 26 Aprile. Il 24 ci sarà lezione di esercitazioni. 
+- Non ci sarà lezione il primo Maggio (ovviamente).
+- **NEW**: I giorni 2 e 3 maggio le lezioni saranno di esercitazioni.
 
-1. click "[use this template]" to create a GitHub repository
-2. go to Settings > Pages > Build and deployment > Source, and select GitHub Actions
+### Compitini
+Alla fine ci baseremo su 3 compitini soltanto (la sufficienza per passare all'orale sarà quindi a 45 punti e non a 60). Le date sono le seguenti
 
-If you want to maintain your docs in the `docs` directory of an existing project repo, see [Hosting your docs from an existing project repo](https://github.com/just-the-docs/just-the-docs-template/blob/main/README.md#hosting-your-docs-from-an-existing-project-repo) in the template README.
+- Compitino 2. Consegna: Giovedì 9 Maggio. Riconsegna: Venerdì 17 Maggio entro le ore 24.
+- Compitino 3. Consegna: Mercoledì 22 Maggio. Riconsegna: Martedì 29 Maggio entro le ore 24.
 
-----
+## Syllabus
+[https://unitn.coursecatalogue.cineca.it/insegnamenti/2023/50200_640994_95392/2021/50200/10113?annoOrdinamento=2021](https://unitn.coursecatalogue.cineca.it/insegnamenti/2023/50200_640994_95392/2021/50200/10113?annoOrdinamento=2021)
 
-[^1]: [It can take up to 10 minutes for changes to your site to publish after you push the changes to GitHub](https://docs.github.com/en/pages/setting-up-a-github-pages-site-with-jekyll/creating-a-github-pages-site-with-jekyll#creating-your-site).
-
-[Just the Docs]: https://just-the-docs.github.io/just-the-docs/
-[GitHub Pages]: https://docs.github.com/en/pages
-[README]: https://github.com/just-the-docs/just-the-docs-template/blob/main/README.md
-[Jekyll]: https://jekyllrb.com
-[GitHub Pages / Actions workflow]: https://github.blog/changelog/2022-07-27-github-pages-custom-github-actions-workflows-beta/
-[use this template]: https://github.com/just-the-docs/just-the-docs-template/generate
+## Libri di Testo
+- [Programmazione in C - Kim N. King](https://strutture-provincia.primo.exlibrisgroup.com/discovery/search?query=any,contains,C%20Programming:%20A%20Modern%20Approach%20&tab=LibraryCatalog&search_scope=MyInstitution&sortby=date_d&vid=39SBT_INST:39SBT_UNI_TN&facet=frbrgroupid,include,9043212938076498681&lang=it&offset=0)
